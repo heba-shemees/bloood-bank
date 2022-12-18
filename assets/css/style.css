@@ -232,6 +232,10 @@ h5 {
     display: flex;
 }
 
+.patient-form .col-md-12 {
+    display: flex;
+}
+
 /* article section/ */
 
 h3 {
@@ -338,7 +342,6 @@ input[class="check"]:checked + label:after {
     width: 55px;
     font-size: 20px;
     padding-top: 14px;
-    padding-right: 18px;
     margin-right: 20px;
 }
 
@@ -409,6 +412,14 @@ b {
     padding: 35px;
 }
 
+.donate .col-md-6 {
+    display: flex;
+}
+
+.donate .col-md-6 {
+    justify-content: right;
+}
+
 /* start care.html/ */
 
 
@@ -452,7 +463,6 @@ label {
     background-blend-mode: screen;
     position: relative;
     background-position: center; 
-    margin-top: 30px; 
     padding: 20px; 
 }
 
@@ -854,6 +864,36 @@ a:hover {
     /* head/ */
     .head .icons {
         display: none;
+    }
+    /* blood section/ */
+    .patient-form .col-md-12 {
+        display: block;
+    }
+    .btn-details.me-3 {
+        text-align: center;
+        padding: 10px;
+    }
+    /* hear icon/ */
+    .heart-white {
+        margin-right: 18.3rem;
+    }
+    .heart-red {
+        margin-right: 18.3rem;
+    }
+    .donate .col-md-6 {
+        display: block;
+    }
+    .donate .col-md-6 {
+        justify-content: center;
+    }
+    .fa-solid.fa-magnifying-glass {
+        padding-top: 14px;
+        margin-right: 0px;
+        margin: 10px;
+        padding-bottom: 14px;
+    }
+    .search {
+        justify-content: center;
     }
 } 
 
