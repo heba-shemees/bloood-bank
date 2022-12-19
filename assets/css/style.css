@@ -88,6 +88,15 @@ h1 {
     padding: 10px;
 }
 
+.donate-form section {
+    background-color: white;
+    display: flex;
+    border-radius: 0px 0px 0px 0px;
+    text-decoration: none;
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+}
+
 .donate {
     background-color: #F5F5F5;
 }
@@ -875,10 +884,10 @@ a:hover {
     }
     /* hear icon/ */
     .heart-white {
-        margin-right: 18.3rem;
+        margin-right: 17rem;
     }
     .heart-red {
-        margin-right: 18.3rem;
+        margin-right: 17rem;
     }
     .donate .col-md-6 {
         display: block;
@@ -894,6 +903,17 @@ a:hover {
     }
     .search {
         justify-content: center;
+    }
+    /* .whatsapp/ */
+    .callus-img {
+        margin-right: 247px
+    }
+    /* carousel/ */
+    .carousel-control-next {
+        margin-left: 31px;
+    }
+    .carousel-control-prev {
+        margin-left: 66px;
     }
 } 
 
